@@ -1,0 +1,215 @@
+
+body{
+  /* background: url('image/dhouse.jpg');*/
+/*background-color: #C1D0B5;*/
+    
+    background-size: cover;
+
+    font-family:sans-serif;
+    
+}
+
+
+ body{
+  margin:0;
+  padding:0;
+ }
+nav img{
+    width:5%;
+    height:100%;
+    box-align:left;
+    
+    
+  }
+  nav{
+      border: black;
+      display:flex;
+      width: 100%;
+      background-color:yellow;
+      height:100px;
+      overflow:auto;
+      margin-right: 0;
+      
+      
+  }
+  nav p{
+      padding-top:20px;
+      padding-left:5px;
+      font-weight: bold;
+  }
+  
+  nav ul{
+       
+      list-style-type: none;
+      display:inline-flex;
+      padding-left: 10%;
+      padding-top:30px;
+      color:black;
+  
+  }
+  nav li{
+      padding-left:30px;
+      font-weight: bold;
+      color: black;
+      
+  }
+  nav a{
+    text-decoration: none;
+    padding:0px;
+  }
+  
+   
+   .menu-bar{
+    margin-top: 50px;
+      background:white;
+      text-align:center;
+      
+      border-radius: 5px;
+      margin-left:200px;
+      margin-right:200px;
+      
+      
+   }
+   .menu-bar a{
+    text-decoration: none;
+   }
+   .menu-bar ul{
+    list-style-type:none;
+    display:inline-flex;
+    color:#fff;
+   }
+   .menu-bar ul li{
+    width:120px;
+    margin:15px;
+    padding:15px;
+   }
+
+  .logout1{
+    width:400px;
+     background-color:#F5F0BB;
+     height:100px;
+     padding-top:20px;
+     margin-top: 5%;
+     /*border: 1px solid grey;*/
+     /*box-shadow: 3px 3px 5px 6px #ccc;*/
+     
+
+}
+
+.login1{
+    /*background-color: aqua;*/
+    
+     width:400px;
+     background-color:#F5F0BB;
+     height:350px;
+     padding-top:20px;
+     margin-top: 5%;
+     /*box-shadow: 2px 5px 10px 3px #ccc;*/
+     border-radius: 10px;
+     
+
+}
+
+
+.signup1{
+    
+     width:400px;
+     background-color:#F5F0BB;
+     height:400px;
+     padding-top:20px;
+     margin-top: 5%;
+    
+}
+input{
+    height: 20px;
+        width:200px;
+        border-radius: 5px;
+    }
+
+    
+     
+     .alert{
+        border:1px solid black;
+        background-color: antiquewhite;
+     }
+
+     .view{
+        margin-top:5%;
+        padding-top:5px;
+        padding-left:0px;
+        padding-right:0px;
+        background-color:white;
+        width:400px;
+        height:30px;
+        margin-bottom: 10px;
+     }
+
+     .menu button{
+        background-color: blue;
+        padding:5px;
+        border:white;
+        
+     }
+ .menu ul{
+    display:inline-flex;  
+    list-style-type: none;
+    
+ }
+   .menu li{
+    
+    margin:15px;
+    
+   
+   } 
+   .menu{
+    text-align: center;
+    
+   }
+   .menu a{
+    color:white;
+    text-decoration: none;
+   }
+
+   .red button{
+    background-color: red;
+   }
+   .orange button{
+    background-color: orange;
+   }
+   .blue button{
+    background-color: aqua;
+   }
+   nav li{
+    padding-left:10px;
+    padding-right:10px;
+    font-weight: bold;
+    color: black;
+    
+}
+nav ul{
+     
+     list-style-type: none;
+     display:inline-flex;
+     padding-left: 10%;
+     padding-top:30px;
+     color:black;
+ 
+ }
+nav li:hover{
+ border:1px solid grey;
+ background-color:white;
+
+  font-weight:700;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+  
+  
+} a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  color:green;
+  font-weight:700;
+}
+   
+  
